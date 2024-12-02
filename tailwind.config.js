@@ -27,11 +27,12 @@ module.exports = {
       },
       screens:{
         smallmoba: "300px",
+        mediunmoba: "600px"
       },
       fontSize:{
-        title: "2rem",
+        title: "1.2rem",
         subtitle: "1rem",
-        paragraph: ".8rem",
+        paragraph: ".9rem",
       },
       fontFamily:{
         "poppins-regular": ["poppins-regular", "sans-serif"],

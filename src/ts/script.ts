@@ -18,7 +18,7 @@ function infiniteCarousel():void{
 
             }, 500)
         }
-    }, 1500)
+    }, 1800)
     
 }
 

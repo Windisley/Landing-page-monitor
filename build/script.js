@@ -14,6 +14,6 @@ function infiniteCarousel() {
                 carrossel.appendChild(carrossel.children[0]);
             }, 500);
         }
-    }, 1500);
+    }, 1800);
 }
 infiniteCarousel();
