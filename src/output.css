@@ -554,7 +554,142 @@ video {
   display: none;
 }
 
+.relative {
+  position: relative;
+}
+
+.m-centralize {
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-96 {
+  height: 24rem;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.min-h-dvh {
+  min-height: 100dvh;
+}
+
+.min-h-full {
+  min-height: 100%;
+}
+
+.min-h-min400 {
+  min-height: 400px;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.min-w-full {
+  min-width: 100%;
+}
+
+.max-w-contain {
+  max-width: 1500px;
+}
+
+.translate-x-0 {
+  --tw-translate-x: 0px;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity, 1));
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(227 245 250 / var(--tw-bg-opacity, 1));
 }
+
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.object-fill {
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.object-center {
+  -o-object-position: center;
+     object-position: center;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.font-poppins-regular {
+  font-family: poppins-regular, sans-serif;
+}
+
+*{
+  margin: 0 auto;
+  padding: 0 auto;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+}
+
+@font-face{
+  font-family: "poppins-regular";
+
+  src: url('/public/fonts/Poppins-Regular.ttf') format("ttf");
+
+  font-style: normal;
+}
+
+@font-face{
+  font-family: "poppins-bold";
+
+  src: url('/public/fonts/Poppins-Bold.ttf') format("ttf");
+
+  font-style: normal;
+}
+
+@font-face{
+  font-family: "poppins-semibold";
+
+  src: url('/public/fonts/Poppins-SemiBold.ttf') format("ttf");
+
+  font-style: normal;
+}
+
+@font-face{
+  font-family: "poppins-italic";
+
+  src: url('/public/fonts/Poppins-Italic.ttf') format("ttf");
+
+  font-style: italic;
+}
+
+

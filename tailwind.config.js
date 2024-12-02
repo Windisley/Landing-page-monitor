@@ -15,6 +15,9 @@ module.exports = {
       maxWidth:{
         contain: "1500px",
       },
+      minHeight:{
+        min400: "400px",
+      },
       margin:{
         centralize: "0 auto",
       },
@@ -30,6 +33,12 @@ module.exports = {
         subtitle: "1rem",
         paragraph: ".8rem",
       },
+      fontFamily:{
+        "poppins-regular": ["poppins-regular", "sans-serif"],
+        "poppins-bold": ["poppins-bold", "sans-serif"],
+        "poppins-semibold": ["poppins-semibold", "sans-serif"],
+        "poppins-italic": ["poppins-italic", "sans-serif"]
+      }
 
 
 
