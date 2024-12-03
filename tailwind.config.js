@@ -27,7 +27,8 @@ module.exports = {
       },
       screens:{
         smallmoba: "300px",
-        mediunmoba: "600px"
+        mediunmoba: "600px",
+        tablet:     "1000px"
       },
       fontSize:{
         title: "1.2rem",
