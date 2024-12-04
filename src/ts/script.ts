@@ -3,8 +3,7 @@ const carrossel = document.querySelector("[data-carrossel]") as HTMLDivElement
     let count:number = 0;
    
   
-   
-      let animationCarrossel =  setInterval(()=>{
+      let animationCarrossel:number =  setInterval(()=>{
                 carrossel.style.transition = "transform 0.5s ease-in-out";
                 carrossel.style.transform = `translateX(${( count * -100)}%)`
         
