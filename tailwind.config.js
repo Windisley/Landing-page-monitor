@@ -12,6 +12,9 @@ module.exports = {
         white: "#E3F5FA",
         dark: "#0C313C",
       },
+      width:{
+       w90: "90%",
+      },
       maxWidth:{
         contain: "1500px",
         containsmall: "450px"
@@ -43,7 +46,10 @@ module.exports = {
         "poppins-bold": ["poppins-bold", "sans-serif"],
         "poppins-semibold": ["poppins-semibold", "sans-serif"],
         "poppins-italic": ["poppins-italic", "sans-serif"]
-      }
+      },
+      dropShadow:{
+        shadowblue: "0px 0px 3px #0C313C"
+      },
 
 
 

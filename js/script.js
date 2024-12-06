@@ -14,3 +14,28 @@ let animationCarrossel = setInterval(() => {
         }, 500);
     }
 }, 1800);
+const boxfaq = document.querySelectorAll("[data-boxfaq]");
+boxfaq.forEach((box) => {
+    const question = box.querySelector('ul');
+    const answer = question?.children[1]; // Assumindo que a resposta é o segundo filho do ul
+    const icon = box.querySelector("[data-iconfaq]"); // Ícone de expandir/contrair
+    if (!question || !answer || !icon)
+        return; // Garante que os elementos existem
+    box.addEventListener("click", () => {
+        const isHidden = box.classList.contains("noshow");
+        if (!isHidden) {
+            answer.classList.add("translate-y-0", "opacity-100", "relative");
+            answer.classList.remove("-translate-y-full", "opacity-0", "absolute");
+            box.classList.add("noshow");
+            icon.classList.add("bi-caret-up-fill");
+            icon.classList.remove("bi-caret-down-fill");
+        }
+        else {
+            answer.classList.remove("translate-y-0", "opacity-100", "relative");
+            answer.classList.add("-translate-y-full", "opacity-0", "absolute");
+            box.classList.remove("noshow");
+            icon.classList.add("bi-caret-down-fill");
+            icon.classList.remove("bi-caret-up-fill");
+        }
+    });
+});
