@@ -14,9 +14,12 @@ module.exports = {
       },
       maxWidth:{
         contain: "1500px",
+        containsmall: "450px"
       },
       minHeight:{
         min400: "400px",
+        min500: "500px",
+
       },
       margin:{
         centralize: "0 auto",
